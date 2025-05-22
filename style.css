@@ -1,0 +1,60 @@
+.free{
+    display: flex; 
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 425px) {
+    .navbar{
+    position: relative;
+}
+body,html{
+  overflow-x: hidden;      
+}
+.ph{
+    display: flex;
+    flex-direction: column;
+}
+.phw{
+    display: flex;
+    flex-direction: column;
+}
+.vid{
+    display: none;
+    flex-direction: column;
+}
+.head{
+    justify-content: center;
+}
+#resume{
+    display: flex;
+    flex-direction: column;
+}
+.free{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#about{
+    padding: 70px 70px 0px 70px;
+}
+
+
+#profileimg{
+    display: none;
+}
+.contact-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+}
+@media (min-width: 1200px){
+
+ .container {
+    max-width: 1140px;
+    display: flex;
+    flex-direction: row;
+    }
+}
